@@ -4,6 +4,6 @@ time = 3
 
 interest = principal * rate * time
 
-print(f"principal = {principal}, rate = {rate}, and time = {time} )
+print(f"principal = {principal}, rate = {rate}, and time = {time}" )
 
 
