@@ -4,11 +4,11 @@ time_bound = input("Is the task time-bound?:")
 
 match priority:
     case "high":
-        print("The task '{task}' is HIGH priority.")
+        print("This task  is HIGH priority.")
     case "medium":
-        print("The task '{task}' is MEDIUM priority.")
+        print("This task  is MEDIUM priority.")
     case "low":
-        print("The task '{task}' is LOW priority.")
+        print("This task  is LOW priority.")
     
 
 if time_bound == True:
