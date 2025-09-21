@@ -9,10 +9,10 @@ match priority:
         reminder = f"The task '{task}' is MEDIUM priority."
     case "low":
         reminder = f"The task '{task}' is LOW priority."
-    case _:
-        reminder = f"The task '{task}' has an UNKNOWN priority."
+    
 
 if time_bound == "yes":
-    print (" It requires immediate attention today!")
+    print (" this task requires immediate attention today!")
 else:
-    print (" Complete it at your convenience.")
+    print ("this task you can Complete it at your convenience.")
+
