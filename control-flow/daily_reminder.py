@@ -13,7 +13,6 @@ match priority:
         reminder = f"The task '{task}' has an UNKNOWN priority."
 
 if time_bound == "yes":
-    reminder += " is a high priority task that requires immediate attention today! "
+    print (" It requires immediate attention today!")
 else:
-    reminder += " is a low priority task. Consider completing it when you have free time. "
-print(reminder)
+    print (" Complete it at your convenience.")
