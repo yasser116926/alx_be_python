@@ -1,6 +1,6 @@
 class BankAccount:
     def __init__(self, balance=0):
-        self.__account_balance = balance   # private balance
+        self.__account_balance = balance  
 
     def deposit(self, amount):
         if amount > 0:
@@ -26,7 +26,7 @@ import sys
 from bank_account import BankAccount
 
 def main():
-    # Start account with 100 balance
+  
     account = BankAccount(100)
 
     if len(sys.argv) < 2:
@@ -49,8 +49,7 @@ def main():
         account.display_balance()
     elif command == "display":
         account.display_balance()
-    else:
-        print("Invalid command.")
+    
 
 if __name__ == "__main__":
     main()
